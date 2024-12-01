@@ -1,0 +1,6 @@
+
+State Machine - |Vendingmealy2|fstate
+Name fstate.S0 fstate.S10 fstate.S5 
+fstate.S0 0 0 0 
+fstate.S5 1 0 1 
+fstate.S10 1 1 0 

@@ -1,0 +1,38 @@
+|SECOOND
+reset => reg_fstate.S0.OUTPUTSELECT
+reset => reg_fstate.S1.OUTPUTSELECT
+reset => reg_fstate.S2.OUTPUTSELECT
+reset => reg_fstate.S3.OUTPUTSELECT
+reset => LWA.OUTPUTSELECT
+reset => LSL.OUTPUTSELECT
+reset => LEA.OUTPUTSELECT
+reset => LSF.OUTPUTSELECT
+reset => LSR.OUTPUTSELECT
+reset => LNR.OUTPUTSELECT
+reset => LNF.OUTPUTSELECT
+reset => LNL.OUTPUTSELECT
+clock => fstate~1.DATAIN
+TCO => always1.IN0
+TCO => always1.IN0
+TCO => always1.IN1
+TCO => always1.IN0
+TCO => Selector1.IN3
+TCO => Selector0.IN3
+TCO => Selector0.IN0
+TCO => Selector3.IN1
+SW2 => always1.IN1
+SW2 => always1.IN0
+SW2 => always1.IN1
+SE1 => always1.IN1
+SE1 => always1.IN1
+SE1 => always1.IN1
+LWA << LWA.DB_MAX_OUTPUT_PORT_TYPE
+LSL << LSL.DB_MAX_OUTPUT_PORT_TYPE
+LEA << LEA.DB_MAX_OUTPUT_PORT_TYPE
+LSF << LSF.DB_MAX_OUTPUT_PORT_TYPE
+LSR << LSR.DB_MAX_OUTPUT_PORT_TYPE
+LNR << LNR.DB_MAX_OUTPUT_PORT_TYPE
+LNF << LNF.DB_MAX_OUTPUT_PORT_TYPE
+LNL << LNL.DB_MAX_OUTPUT_PORT_TYPE
+
+

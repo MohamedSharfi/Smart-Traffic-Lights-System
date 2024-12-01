@@ -1,0 +1,69 @@
+|firstask
+a <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+k => 7447:inst.B
+j => 7447:inst.C
+h => 7447:inst.D
+L => 7447:inst.A
+e <= inst7.DB_MAX_OUTPUT_PORT_TYPE
+f <= inst8.DB_MAX_OUTPUT_PORT_TYPE
+g <= inst9.DB_MAX_OUTPUT_PORT_TYPE
+b <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+c <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+d <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+P <= prescaler:inst90.clkout
+m => prescaler:inst90.clkin
+
+
+|firstask|7447:inst
+OG <= 87.DB_MAX_OUTPUT_PORT_TYPE
+C => 25.IN0
+LTN => 25.IN1
+LTN => 27.IN1
+LTN => 29.IN1
+LTN => 13.IN5
+LTN => 38.IN3
+BIN => 37.IN0
+B => 27.IN0
+D => 14.IN0
+A => 29.IN0
+RBIN => 15.IN0
+OF <= 86.DB_MAX_OUTPUT_PORT_TYPE
+OE <= 85.DB_MAX_OUTPUT_PORT_TYPE
+RBON <= 13.DB_MAX_OUTPUT_PORT_TYPE
+OD <= 84.DB_MAX_OUTPUT_PORT_TYPE
+OC <= 83.DB_MAX_OUTPUT_PORT_TYPE
+OB <= 82.DB_MAX_OUTPUT_PORT_TYPE
+OA <= 81.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|firstask|prescaler:inst90
+clkin => clkout~reg0.CLK
+clkin => counter[0].CLK
+clkin => counter[1].CLK
+clkin => counter[2].CLK
+clkin => counter[3].CLK
+clkin => counter[4].CLK
+clkin => counter[5].CLK
+clkin => counter[6].CLK
+clkin => counter[7].CLK
+clkin => counter[8].CLK
+clkin => counter[9].CLK
+clkin => counter[10].CLK
+clkin => counter[11].CLK
+clkin => counter[12].CLK
+clkin => counter[13].CLK
+clkin => counter[14].CLK
+clkin => counter[15].CLK
+clkin => counter[16].CLK
+clkin => counter[17].CLK
+clkin => counter[18].CLK
+clkin => counter[19].CLK
+clkin => counter[20].CLK
+clkin => counter[21].CLK
+clkin => counter[22].CLK
+clkin => counter[23].CLK
+clkin => counter[24].CLK
+clkin => counter[25].CLK
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

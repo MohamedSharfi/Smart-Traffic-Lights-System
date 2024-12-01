@@ -1,0 +1,417 @@
+$comment
+	File created using the following command:
+		vcd file VendingMachine.msim.vcd -direction
+$end
+$date
+	Wed May 10 14:03:41 2023
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module VendingMachine_vlg_vec_tst $end
+$var reg 1 ! D $end
+$var reg 1 " N $end
+$var reg 1 # clock $end
+$var reg 1 $ reset $end
+$var wire 1 % R $end
+$var wire 1 & sampler $end
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - R~output_o $end
+$var wire 1 . clock~input_o $end
+$var wire 1 / clock~inputclkctrl_outclk $end
+$var wire 1 0 reset~input_o $end
+$var wire 1 1 N~input_o $end
+$var wire 1 2 D~input_o $end
+$var wire 1 3 reg_fstate.S0~0_combout $end
+$var wire 1 4 reg_fstate.S0~1_combout $end
+$var wire 1 5 fstate.S0~q $end
+$var wire 1 6 reg_fstate.S5~0_combout $end
+$var wire 1 7 reg_fstate.S5~1_combout $end
+$var wire 1 8 fstate.S5~q $end
+$var wire 1 9 reg_fstate.S10~0_combout $end
+$var wire 1 : reg_fstate.S10~1_combout $end
+$var wire 1 ; fstate.S10~q $end
+$var wire 1 < reg_fstate.S15~0_combout $end
+$var wire 1 = reg_fstate.S15~1_combout $end
+$var wire 1 > fstate.S15~q $end
+$var wire 1 ? R~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+10
+01
+02
+13
+04
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+$end
+#20000
+1#
+0$
+1.
+00
+1/
+0&
+#40000
+0#
+0.
+0/
+1&
+#60000
+1#
+1.
+1/
+0&
+#80000
+1"
+0#
+11
+0.
+0/
+1&
+16
+03
+17
+14
+#100000
+1#
+1.
+1/
+0&
+18
+15
+19
+06
+1:
+07
+#120000
+0"
+0#
+01
+0.
+0/
+1&
+09
+16
+13
+0:
+17
+#140000
+1#
+1.
+1/
+0&
+#160000
+1"
+0#
+11
+0.
+0/
+1&
+19
+06
+03
+1:
+07
+#180000
+1#
+1.
+1/
+0&
+1;
+08
+1=
+09
+0:
+#200000
+0"
+0#
+01
+0.
+0/
+1&
+0=
+19
+13
+1:
+#220000
+1#
+1.
+1/
+0&
+#240000
+1"
+0#
+11
+0.
+0/
+1&
+1=
+09
+03
+0:
+#260000
+1#
+1.
+1/
+0&
+1>
+0;
+04
+0=
+1?
+1-
+1%
+#280000
+0"
+0#
+01
+0.
+0/
+1&
+13
+#300000
+1#
+1.
+1/
+0&
+0>
+05
+0?
+0-
+0%
+#320000
+1!
+0#
+12
+0.
+0/
+1&
+1:
+03
+14
+#340000
+1#
+1.
+1/
+0&
+1;
+15
+1<
+19
+0:
+1=
+#360000
+0!
+0#
+02
+0.
+0/
+1&
+0<
+1:
+13
+0=
+#380000
+1#
+1.
+1/
+0&
+#400000
+1"
+0#
+11
+0.
+0/
+1&
+1=
+09
+03
+0:
+#420000
+1#
+1.
+1/
+0&
+1>
+0;
+04
+0=
+1?
+1-
+1%
+#440000
+0"
+0#
+01
+0.
+0/
+1&
+13
+#460000
+1#
+1.
+1/
+0&
+0>
+05
+0?
+0-
+0%
+#480000
+1!
+0#
+12
+0.
+0/
+1&
+1:
+03
+14
+#500000
+1#
+1.
+1/
+0&
+1;
+15
+1<
+19
+0:
+1=
+#520000
+0!
+0#
+02
+0.
+0/
+1&
+0<
+1:
+13
+0=
+#540000
+1#
+1.
+1/
+0&
+#560000
+1!
+0#
+12
+0.
+0/
+1&
+1<
+0:
+03
+1=
+#580000
+1#
+1.
+1/
+0&
+1>
+0;
+04
+0<
+09
+1?
+0=
+1-
+1%
+#600000
+0!
+0#
+02
+0.
+0/
+1&
+13
+#620000
+1#
+1.
+1/
+0&
+0>
+05
+0?
+0-
+0%
+#640000
+0#
+0.
+0/
+1&
+#660000
+1#
+1.
+1/
+0&
+#680000
+0#
+0.
+0/
+1&
+#700000
+1#
+1.
+1/
+0&
+#720000
+0#
+0.
+0/
+1&
+#740000
+1#
+1.
+1/
+0&
+#760000
+0#
+0.
+0/
+1&
+#780000
+1#
+1.
+1/
+0&
+#800000
